@@ -1,0 +1,37 @@
+{
+  "name": "payevertrial",
+  "version": "1.0.0",
+  "description": "Trial Payever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoEudesC/PayeverTrial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoEudesC/PayeverTrial/issues"
+  },
+  "homepage": "https://github.com/JoaoEudesC/PayeverTrial#readme",
+  "dependencies": {
+    "@nestjs/microservices": "^9.4.0",
+    "amqplib": "^0.10.3",
+    "multer": "^1.4.5-lts.1",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^9.4.0",
+    "@types/jest": "^29.5.0",
+    "@types/multer": "^1.4.7",
+    "jest": "^29.5.0",
+    "mongodb-memory-server": "^8.12.2",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0"
+  }
+}
